@@ -3,23 +3,31 @@
 
 <head>
   <link href="./style.css" rel="stylesheet">
+  <!-- 아이콘 받아오기 -->
+  <script src="https://kit.fontawesome.com/c973589dd7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- 상단 바 -->
   <div id="top">
-    <img src="./image/insta.jpg" width="120px" />
-    <input type="search" placeholder="검색" />
-    <div></div>
+    <img src="./image/insta.png" width="120px" />
+    <input type="search" placeholder="🔍검색" />
+    <div>
+      <i class="fa-solid fa-house"></i>
+      <i class="fa-regular fa-paper-plane"></i>
+      <i class="fa-regular fa-compass"></i>
+      <i class="fa-regular fa-heart"></i>
+    </div>
   </div>
   <!-- 프로필 영역 -->
   <div id="profile">
     <div id="profile_pic">
-      <img src="https://image.cine21.com/resize/cine21/still/2005/0527/M0020065_cul50310[H800-].jpg"
-        class="circle_pic" />
+      <img src="./image/profile.jpg" class="circle_pic" />
     </div>
     <div id="profile_info">
-      <div id="id">쮸잇</div>
+      <div id="id">쮸잇
+        <i class="fa-solid fa-gear"></i>
+      </div>
       <button>프로필 편집</button>
     </div>
   </div>
@@ -37,7 +45,7 @@
       <div class="highlight_pic">
         <img src="./image/1.jpg" class="circle_pic" />
       </div>
-      <div>🍞</div>
+      <div>💙</div>
     </div>
     <div class="highlight">
       <div class="highlight_pic">
@@ -51,20 +59,24 @@
   <div id="stat_bar">
     <div class="stat">
       게시물<br>
-      133
+      486
     </div>
     <div class="stat">
       팔로워<br>
-      408
+      768
     </div>
     <div class="stat">
       팔로우<br>
-      189
+      733
     </div>
   </div>
   <!-- 아이콘 -->
-  <div>
-    아이콘이 들어갈 자리
+  <div id="sub_icons">
+    <div class="selected"><i class="fa-solid fa-border-all"></i></div>
+    <div><i class="fa-solid fa-film"></i></div>
+    <div><i class="fa-regular fa-circle-play"></i></div>
+    <div><i class="fa-regular fa-bookmark"></i></div>
+    <div><i class="fa-solid fa-user-tag"></i></div>
   </div>
   <!-- 게시물 썸네일 -->
   <div>
